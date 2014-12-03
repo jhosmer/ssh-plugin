@@ -1,24 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<description>Execute shell scripts on remote host
-using ssh (pre and post build).
-Based on the cool scp plugin.</description>
+	<description>Execute shell scripts on a group of remote hosts using ssh (pre and post build).  Based on the cool ssh plugin.</description>
 	<parent>
 		<groupId>org.jenkins-ci.plugins</groupId>
 		<artifactId>plugin</artifactId>
-		<version>1.424</version>
+		<version>1.575</version>
 	</parent>
 
-	<artifactId>ssh</artifactId>
-	<name>Jenkins SSH plugin</name>
-	<version>2.5-SNAPSHOT</version>
+	<artifactId>group-ssh</artifactId>
+	<name>Jenkins Group SSH plugin</name>
+	<version>1.0</version>
 	<packaging>hpi</packaging>
-	<url>http://wiki.jenkins-ci.org/display/JENKINS/SSH+plugin</url>
+	<url>http://wiki.jenkins-ci.org/display/JENKINS/Group+SSH+plugin</url>
 
 	<developers>
 		<developer>
-			<id>edmund_wagner</id>
-			<name>Edmund Wagner</name>
+			<id>jhosmer</id>
+			<name>Jonathan Hosmer</name>
 		</developer>
 	</developers>
 
@@ -65,8 +63,8 @@ Based on the cool scp plugin.</description>
 	</pluginRepositories>
 
 	<scm>
-		<connection>scm:git:git@github.com:jenkinsci/ssh-plugin.git</connection>
-		<developerConnection>scm:git:git@github.com:jenkinsci/ssh-plugin.git</developerConnection>
+		<connection>scm:git:git@github.com:jenkinsci/group-ssh-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:jenkinsci/group-ssh-plugin.git</developerConnection>
 	</scm>
 
 </project>
